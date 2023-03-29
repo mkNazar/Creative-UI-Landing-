@@ -1,5 +1,7 @@
 @import url('reset.css');
+@import url('common.css');
 @import url('header.css');
+@import url('footer.css');
 body {
   font-family: 'Poppins', 'helvetica Neue', Helvetica, sans-serif;
   background-color: #222831;
@@ -14,6 +16,12 @@ body {
 }
 .page {
   flex: 1 1 auto;
+  padding-top: 5.3125rem;
+}
+@media (max-width: 31.25rem) {
+  .page {
+    padding: 4.5625rem;
+  }
 }
 [class*='__container'] {
   max-width: 1280px;
