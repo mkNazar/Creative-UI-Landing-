@@ -1,3 +1,34 @@
+.title{
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 1.5;
+    color: #eeeeeeee;
+}
+.title span{
+    color: #00adb5;
+}
+.button {
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.6875rem;
+  color: #eeeeeeee;
+  padding: 0.625rem 2rem;
+  background-color: #00adb5;
+  border-radius: 1.5rem;
+  transition: background-color 0.3s ease 0s;
+}
+
+.button:hover {
+  background: rgba(57, 62, 70, 0.75);
+}
+.button__dark {
+  background: rgba(57, 62, 70, 0.75);
+}
+.button__dark:hover {
+  background-color: #00adb5;
+}
+
 .social {
   display: flex;
   justify-content: center;

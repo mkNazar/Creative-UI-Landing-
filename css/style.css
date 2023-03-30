@@ -26,3 +26,125 @@ body {
 [class*='__container'] {
   max-width: 1280px;
 }
+
+.main {
+  padding-top: 5.8125rem;
+  padding-bottom: 6.125rem;
+  border-bottom: 1px solid rgba(238, 238, 238, 0.1);
+}
+
+.main__container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.main__content {
+  flex: 1 1 auto;
+  padding-right: 1.25rem;
+}
+
+.main__title {
+  font-weight: 700;
+  font-size: 6rem;
+  text-transform: uppercase;
+  color: #eeeeee;
+}
+.main__title span {
+  color: #00adb5;
+}
+.main__title:not(:last-child) {
+  margin-bottom: 3rem;
+}
+.main__buttons {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.main__cv-buttons span {
+  padding-right: 2.125rem;
+  display: block;
+  background: url('../img/icons/download.svg') right no-repeat;
+}
+.main__image {
+  flex: 0 0 42.8%;
+  text-align: center;
+}
+.main_image img {
+  max-width: 100%;
+}
+@media (max-width: 80rem) {
+  .main {
+    padding-top: 3.125rem;
+    padding-bottom: 2.8125rem;
+  }
+  .main__container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .main__content {
+    padding-right: 0rem;
+  }
+  .main__title {
+    text-align: center;
+  }
+  .main__image {
+    flex: 0 0 auto;
+  }
+  .main__buttons {
+    justify-content: center;
+  }
+}
+@media (max-width: 47.9988rem){
+    .main__title {
+   font-size: 4.0625rem;
+  }
+  .main__title:not(:last-child){
+      margin-bottom: 1.5625rem;
+  }
+  .main{
+      padding-top: 2.1875rem;
+      padding-bottom: 2.1875rem;
+  }
+}
+@media (max-width: 29.9988rem){
+     .main__title {
+   font-size: 2.8125rem;
+  }
+  .main__buttons{
+      gap: .625rem;
+      flex-direction: column;
+      align-items: stretch;
+  }
+}
+
+.about {
+    padding-top: 7.25rem;
+    padding-bottom: 7.25rem;
+
+}
+
+.about__container{
+    display: flex;
+
+}
+
+
+.about__content{}
+
+	
+ .about__title
+ .about__title:not(:last-child){
+     margin-bottom: 1.25rem;
+ }
+.about__text{
+    max-width: 24.375rem;
+    line-height: 1.5;
+}
+
+.about__image{
+    flex: 0 0 53.2%;
+
+}
+.about__image img{
+    max-width: 100%;
+}
